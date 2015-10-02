@@ -3,16 +3,26 @@
    Copyright (C) 2010 ScanTool.net LLC, All Rights Reserved
 *********************************************************************
 
-======================================
-============ Dependencies ============
-======================================
+============
+Dependencies
+============
 
- - libxxf86dga-dev
- - liballegro4-dev
+------
+Debian
+------
+`sudo bash debian_premake.sh`
+- Note: This just executes `sudo apt-get install libxxf86dga-dev liballegro4-dev build-essential` since Allegro 5 is packaged for Debian.
 
-======================================
-============= Disclaimer =============
-======================================
+--------------------
+RedHat/CentOS/Fedora
+--------------------
+
+`sudo bash centos_premake.sh X`
+- Note: `X` denotes the number of CPU cores you want to designate to `cmake`
+
+==========
+Disclaimer
+==========
 
 This program is free software; you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
@@ -22,9 +32,9 @@ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
 or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for
 more details.
 
-======================================
-============ Introduction ============
-======================================
+============
+Introduction
+============
 
 ScanTool.net OBD-II Software for ElmScan is free software that allows you to 
 use your computer and an inexpensive hardware interface to read information 
@@ -36,9 +46,9 @@ Coolant Temperature, and Timing Advance.
 For more information about the ElmScan OBD-II interface, please visit 
 our website, located at http://www.ScanTool.net.
 
-======================================
-===== Minimum System Requirements ====
-======================================
+===========================
+Minimum System Requirements
+===========================
 
 Windows:
    - 486DX 25Mhz Processor or better
@@ -55,16 +65,16 @@ DOS:
    - 640x480 display
    - Serial port
 
-======================================
-========== Troubleshooting ===========
-======================================
+===============
+Troubleshooting
+===============
 
 If you are having problems running the software, please visit our
 Support Page located at http://www.scantool.net/support
 
-======================================
-========== Version History ===========
-======================================
+===============
+Version History
+===============
 
    v1.21  -  Made 115.2k baud rate the default
    v1.20  -  Added dynamic COM port selector (now works with COM port numbers > COM8)
